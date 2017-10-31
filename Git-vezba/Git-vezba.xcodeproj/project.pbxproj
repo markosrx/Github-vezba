@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E26D431D1FA86DE300043658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D431C1FA86DE300043658 /* AppDelegate.swift */; };
+		E26D431F1FA86DE300043658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D431E1FA86DE300043658 /* ViewController.swift */; };
+		E26D43221FA86DE300043658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26D43201FA86DE300043658 /* Main.storyboard */; };
+		E26D43241FA86DE300043658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26D43231FA86DE300043658 /* Assets.xcassets */; };
+		E26D43271FA86DE300043658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26D43251FA86DE300043658 /* LaunchScreen.storyboard */; };
+		E26D43321FA86DE300043658 /* Git_vezbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D43311FA86DE300043658 /* Git_vezbaTests.swift */; };
+		E26D433D1FA86DE300043658 /* Git_vezbaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D433C1FA86DE300043658 /* Git_vezbaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26D432E1FA86DE300043658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26D43111FA86DE200043658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26D43181FA86DE300043658;
+			remoteInfo = "Git-vezba";
+		};
+		E26D43391FA86DE300043658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26D43111FA86DE200043658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26D43181FA86DE300043658;
+			remoteInfo = "Git-vezba";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E26D43191FA86DE300043658 /* Git-vezba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-vezba.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26D431C1FA86DE300043658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E26D431E1FA86DE300043658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E26D43211FA86DE300043658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E26D43231FA86DE300043658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26D43261FA86DE300043658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E26D43281FA86DE300043658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26D432D1FA86DE300043658 /* Git-vezbaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git-vezbaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26D43311FA86DE300043658 /* Git_vezbaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_vezbaTests.swift; sourceTree = "<group>"; };
+		E26D43331FA86DE300043658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26D43381FA86DE300043658 /* Git-vezbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git-vezbaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26D433C1FA86DE300043658 /* Git_vezbaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_vezbaUITests.swift; sourceTree = "<group>"; };
+		E26D433E1FA86DE300043658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26D43161FA86DE300043658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26D432A1FA86DE300043658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26D43351FA86DE300043658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E26D43101FA86DE200043658 = {
+			isa = PBXGroup;
+			children = (
+				E26D431B1FA86DE300043658 /* Git-vezba */,
+				E26D43301FA86DE300043658 /* Git-vezbaTests */,
+				E26D433B1FA86DE300043658 /* Git-vezbaUITests */,
+				E26D431A1FA86DE300043658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E26D431A1FA86DE300043658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26D43191FA86DE300043658 /* Git-vezba.app */,
+				E26D432D1FA86DE300043658 /* Git-vezbaTests.xctest */,
+				E26D43381FA86DE300043658 /* Git-vezbaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26D431B1FA86DE300043658 /* Git-vezba */ = {
+			isa = PBXGroup;
+			children = (
+				E26D431C1FA86DE300043658 /* AppDelegate.swift */,
+				E26D431E1FA86DE300043658 /* ViewController.swift */,
+				E26D43201FA86DE300043658 /* Main.storyboard */,
+				E26D43231FA86DE300043658 /* Assets.xcassets */,
+				E26D43251FA86DE300043658 /* LaunchScreen.storyboard */,
+				E26D43281FA86DE300043658 /* Info.plist */,
+			);
+			path = "Git-vezba";
+			sourceTree = "<group>";
+		};
+		E26D43301FA86DE300043658 /* Git-vezbaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E26D43311FA86DE300043658 /* Git_vezbaTests.swift */,
+				E26D43331FA86DE300043658 /* Info.plist */,
+			);
+			path = "Git-vezbaTests";
+			sourceTree = "<group>";
+		};
+		E26D433B1FA86DE300043658 /* Git-vezbaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E26D433C1FA86DE300043658 /* Git_vezbaUITests.swift */,
+				E26D433E1FA86DE300043658 /* Info.plist */,
+			);
+			path = "Git-vezbaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26D43181FA86DE300043658 /* Git-vezba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26D43411FA86DE300043658 /* Build configuration list for PBXNativeTarget "Git-vezba" */;
+			buildPhases = (
+				E26D43151FA86DE300043658 /* Sources */,
+				E26D43161FA86DE300043658 /* Frameworks */,
+				E26D43171FA86DE300043658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Git-vezba";
+			productName = "Git-vezba";
+			productReference = E26D43191FA86DE300043658 /* Git-vezba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26D432C1FA86DE300043658 /* Git-vezbaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26D43441FA86DE300043658 /* Build configuration list for PBXNativeTarget "Git-vezbaTests" */;
+			buildPhases = (
+				E26D43291FA86DE300043658 /* Sources */,
+				E26D432A1FA86DE300043658 /* Frameworks */,
+				E26D432B1FA86DE300043658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26D432F1FA86DE300043658 /* PBXTargetDependency */,
+			);
+			name = "Git-vezbaTests";
+			productName = "Git-vezbaTests";
+			productReference = E26D432D1FA86DE300043658 /* Git-vezbaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E26D43371FA86DE300043658 /* Git-vezbaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26D43471FA86DE300043658 /* Build configuration list for PBXNativeTarget "Git-vezbaUITests" */;
+			buildPhases = (
+				E26D43341FA86DE300043658 /* Sources */,
+				E26D43351FA86DE300043658 /* Frameworks */,
+				E26D43361FA86DE300043658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26D433A1FA86DE300043658 /* PBXTargetDependency */,
+			);
+			name = "Git-vezbaUITests";
+			productName = "Git-vezbaUITests";
+			productReference = E26D43381FA86DE300043658 /* Git-vezbaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26D43111FA86DE200043658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Click;
+				TargetAttributes = {
+					E26D43181FA86DE300043658 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					E26D432C1FA86DE300043658 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E26D43181FA86DE300043658;
+					};
+					E26D43371FA86DE300043658 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E26D43181FA86DE300043658;
+					};
+				};
+			};
+			buildConfigurationList = E26D43141FA86DE200043658 /* Build configuration list for PBXProject "Git-vezba" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E26D43101FA86DE200043658;
+			productRefGroup = E26D431A1FA86DE300043658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26D43181FA86DE300043658 /* Git-vezba */,
+				E26D432C1FA86DE300043658 /* Git-vezbaTests */,
+				E26D43371FA86DE300043658 /* Git-vezbaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26D43171FA86DE300043658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26D43271FA86DE300043658 /* LaunchScreen.storyboard in Resources */,
+				E26D43241FA86DE300043658 /* Assets.xcassets in Resources */,
+				E26D43221FA86DE300043658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26D432B1FA86DE300043658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26D43361FA86DE300043658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26D43151FA86DE300043658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26D431F1FA86DE300043658 /* ViewController.swift in Sources */,
+				E26D431D1FA86DE300043658 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26D43291FA86DE300043658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26D43321FA86DE300043658 /* Git_vezbaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26D43341FA86DE300043658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26D433D1FA86DE300043658 /* Git_vezbaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26D432F1FA86DE300043658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26D43181FA86DE300043658 /* Git-vezba */;
+			targetProxy = E26D432E1FA86DE300043658 /* PBXContainerItemProxy */;
+		};
+		E26D433A1FA86DE300043658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26D43181FA86DE300043658 /* Git-vezba */;
+			targetProxy = E26D43391FA86DE300043658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E26D43201FA86DE300043658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26D43211FA86DE300043658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E26D43251FA86DE300043658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26D43261FA86DE300043658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E26D433F1FA86DE300043658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E26D43401FA86DE300043658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E26D43421FA86DE300043658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Git-vezba/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Click.Git-vezba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E26D43431FA86DE300043658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Git-vezba/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Click.Git-vezba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E26D43451FA86DE300043658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Git-vezbaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Click.Git-vezbaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Git-vezba.app/Git-vezba";
+			};
+			name = Debug;
+		};
+		E26D43461FA86DE300043658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Git-vezbaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Click.Git-vezbaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Git-vezba.app/Git-vezba";
+			};
+			name = Release;
+		};
+		E26D43481FA86DE300043658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Git-vezbaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Click.Git-vezbaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Git-vezba";
+			};
+			name = Debug;
+		};
+		E26D43491FA86DE300043658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Git-vezbaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Click.Git-vezbaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Git-vezba";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26D43141FA86DE200043658 /* Build configuration list for PBXProject "Git-vezba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26D433F1FA86DE300043658 /* Debug */,
+				E26D43401FA86DE300043658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26D43411FA86DE300043658 /* Build configuration list for PBXNativeTarget "Git-vezba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26D43421FA86DE300043658 /* Debug */,
+				E26D43431FA86DE300043658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26D43441FA86DE300043658 /* Build configuration list for PBXNativeTarget "Git-vezbaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26D43451FA86DE300043658 /* Debug */,
+				E26D43461FA86DE300043658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26D43471FA86DE300043658 /* Build configuration list for PBXNativeTarget "Git-vezbaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26D43481FA86DE300043658 /* Debug */,
+				E26D43491FA86DE300043658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26D43111FA86DE200043658 /* Project object */;
+}
